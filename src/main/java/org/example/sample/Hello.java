@@ -7,7 +7,7 @@ import java.util.Locale;
 public class Hello {
     public static void main(String[] args) {
         Greet greet = new Greet(Calendar.getInstance(Locale.getDefault()));
-        System.out.println(Greet.fetchGreeting() + " world");
+        System.out.println(greet.fetchGreeting() + " world");
         System.out.println();
     }
 }
